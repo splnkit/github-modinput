@@ -2,13 +2,15 @@
 
 Forked from [https://github.com/splunk/splunk-sdk-javascript/tree/develop/examples/modularinputs/github_commits](https://github.com/splunk/splunk-sdk-javascript/tree/develop/examples/modularinputs/github_commits)
 
-The Github Modular Input is a splunk modular input developed as an example in the [Splunk SDK for Javascript](https://github.com/splunk/splunk-sdk-javascript) and is bundled separately here for easy deployment to [Splunkbase](http://apps.splunk.com). It provides a "native" Splunk input method that collects commit data via the Github API to be consumed in Splunk for search, analysis and correlation with other data sets.
+The Github Modular Input is a splunk modular input developed as an example in the [Splunk SDK for Javascript](https://github.com/splunk/splunk-sdk-javascript) and is bundled separately here with its dependencies for easy deployment to [Splunkbase](http://apps.splunk.com). It provides a "native" Splunk input method that collects commit data via the Github API to be consumed in Splunk for search, analysis and correlation with other data sets.
+
+There is a very thorough blog post about how it is implemented at [blog.splunk.com](http://blogs.splunk.com/2014/09/17/new-support-for-authoring-modular-inputs-in-node-js/) as well as extensive documentation about its components which is referenced below.
 
 ## Install
 
 In general there are two methods for installing apps into Splunk:
 
-1. Copy this whole `github_commits` folder to `$SPLUNK_HOME/etc/apps`.
+1. Copy this whole `github-modinput` folder to `$SPLUNK_HOME/etc/apps`.
 2. Restart Splunk
 
 or
@@ -18,7 +20,7 @@ or
 
 ## Adding an input
 
-1. From Splunk Home, click the Settings menu. Under **Data**, click **Data inputs**, and find `Github commits`, the input you just added. **Click Add new on that row**.
+1. From Splunk Home, click the Settings menu. Under **Data**, click **Data inputs**, and find `Github Commits`, the input you just added. **Click Add new on that row**.
 2. Click **Add new** and fill in:
     * `name` (whatever name you want to give this input)
     * `owner` (the owner of the Github repository, this is a Github username or org name)
