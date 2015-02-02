@@ -10,7 +10,7 @@ Github Repository: [https://github.com/splnkit/github-modinput](https://github.c
 
 Original code was forked from [https://github.com/splunk/splunk-sdk-javascript/](https://github.com/splunk/splunk-sdk-javascript/tree/develop/examples/modularinputs/github_commits)
 
-On Splunkbase at: TBD
+On Splunkbase at: [https://apps.splunk.com/app/2635/](https://apps.splunk.com/app/2635/)
 
 ## Install
 
