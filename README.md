@@ -1,10 +1,16 @@
 # Github Modular Input
 
-Forked from [https://github.com/splunk/splunk-sdk-javascript/](https://github.com/splunk/splunk-sdk-javascript/tree/develop/examples/modularinputs/github_commits)
-
 The Github Modular Input is a splunk modular input developed as an example in the [Splunk SDK for Javascript](https://github.com/splunk/splunk-sdk-javascript) and is bundled separately here with its dependencies for easy deployment to [Splunkbase](http://apps.splunk.com). It provides a "native" Splunk input method that collects commit data via the Github API to be consumed in Splunk for search, analysis and correlation with other data sets.
 
 There is a very thorough blog post about how it is implemented at [blog.splunk.com](http://blogs.splunk.com/2014/09/17/new-support-for-authoring-modular-inputs-in-node-js/) as well as extensive documentation about its components which is referenced below.
+
+## Getting the Code
+
+Github Repository: [https://github.com/splnkit/github-modinput](https://github.com/splnkit/github-modinput)
+
+Original code was forked from [https://github.com/splunk/splunk-sdk-javascript/](https://github.com/splunk/splunk-sdk-javascript/tree/develop/examples/modularinputs/github_commits)
+
+On Splunkbase at: TBD
 
 ## Install
 
